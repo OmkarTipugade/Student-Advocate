@@ -9,11 +9,11 @@ const VisionMission = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-green-700 text-white font-sans">
+    <div className="flex flex-col items-center min-h-screen bg-green-700 text-white">
       <h1 className="text-4xl font-bold text-gray-200 mb-4 mt-10 text-center">
         Our Vision & Mission
       </h1>
-      <p className="text-lg text-gray-300 text-center px-4">
+      <p className="text-xl text-gray-300 text-center px-4">
         Committed to excellence and innovation in grievance management.
       </p>
 
@@ -31,10 +31,10 @@ const VisionMission = () => {
               <FaEye size={40} />
             </div>
             <div>
-              <h2 className="text-2xl text-gray-100 mb-2 font-bold">
+              <h2 className="text-3xl text-gray-100 mb-2 font-bold">
                 Our Vision
               </h2>
-              <p className="text-base text-gray-300 leading-relaxed">
+              <p className="text-xl text-gray-300 leading-relaxed text-justify">
                 Our vision is to become a globally recognized platform that
                 helps individuals address their grievances seamlessly, fostering
                 a world where communication and problem resolution are
@@ -62,10 +62,10 @@ const VisionMission = () => {
               <FaBullseye size={40} />
             </div>
             <div>
-              <h2 className="text-2xl text-gray-100 mb-2 font-bold">
+              <h2 className="text-3xl text-gray-100 mb-2 font-bold">
                 Our Mission
               </h2>
-              <p className="text-base text-gray-300 leading-relaxed">
+              <p className="text-xl text-gray-300 leading-relaxed text-justify">
                 Our mission is to provide a robust, user-friendly grievance
                 management system that empowers users to voice their concerns
                 with confidence, ensuring fair and prompt resolutions while

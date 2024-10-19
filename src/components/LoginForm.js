@@ -12,7 +12,7 @@ const LoginForm = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4 sm:px-6 lg:px-8">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md sm:max-w-lg lg:max-w-xl">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-6">
-          Login
+          Sign In
         </h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="form-group">
@@ -43,7 +43,7 @@ const LoginForm = () => {
             type="submit"
             className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 text-base sm:text-lg lg:text-xl"
           >
-            Login
+            Sign in
           </button>
         </form>
         <p className="text-base sm:text-lg lg:text-xl text-gray-600 mt-4 text-center">
@@ -53,7 +53,7 @@ const LoginForm = () => {
             // onClick={() => setShowSignup(true)}
             className="text-green-700 hover:underline"
           >
-            Signup
+            Sign up
           </a>
         </p>
       </div>
