@@ -1,9 +1,11 @@
 import React from "react";
-import AboutUs from "./AboutUs";
+import LoginForm from "./LoginForm";
+// import SignUpForm from "./SignUpForm";
 const index = () => {
   return (
     <div>
-      <AboutUs />
+      <LoginForm />
+      {/* <SignUpForm /> */}
     </div>
   );
 };
