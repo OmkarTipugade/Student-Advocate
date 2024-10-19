@@ -16,18 +16,6 @@ const MeetOurTeam = () => {
       </p>
       <div className="flex flex-col md:flex-row justify-center items-center md:gap-8 mt-12 space-y-8 md:space-y-0 px-4">
         <TeamMember
-          name="Saloni Patil"
-          role="Backend Developer, API"
-          link="https://www.linkedin.com/in/saloni-patil07/"
-          imgUrl={saloni}
-        />
-        <TeamMember
-          name="Rutuja Rajigare"
-          role="Backend Developer, Database"
-          link="https://www.linkedin.com/in/rutuja-rajigare-66313a276/"
-          imgUrl={rutuja}
-        />
-        <TeamMember
           name="Akanksha Powar "
           role="Fronted Developer"
           link="https://www.linkedin.com/in/akanksha-powar-533686276/"
@@ -44,6 +32,18 @@ const MeetOurTeam = () => {
           role="Fronted Developer"
           link="https://www.linkedin.com/in/omkar-tipugade/"
           imgUrl={omkar}
+        />
+        <TeamMember
+          name="Rutuja Rajigare"
+          role="Backend Developer, Database"
+          link="https://www.linkedin.com/in/rutuja-rajigare-66313a276/"
+          imgUrl={rutuja}
+        />
+        <TeamMember
+          name="Saloni Patil"
+          role="Backend Developer, API"
+          link="https://www.linkedin.com/in/saloni-patil07/"
+          imgUrl={saloni}
         />
       </div>
     </div>
