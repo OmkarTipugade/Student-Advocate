@@ -47,11 +47,11 @@ const GrievanceForm = () => {
           Thank you for submitting your grievance. We will address it promptly.
         </div>
       )}
-      <form className="space-y-4" onSubmit={handleSubmit}>
+      <form className="space-y-4 text-base" onSubmit={handleSubmit}>
         <div className="gf-field flex flex-col">
           <label
             htmlFor="name"
-            className="text-sm font-medium text-gray-700 sm:text-base text-left"
+            className=" font-medium text-gray-700 text-left"
           >
             Name <span className="text-red-500">*</span>
           </label>
@@ -69,7 +69,7 @@ const GrievanceForm = () => {
         <div className="gf-field flex flex-col">
           <label
             htmlFor="email"
-            className="text-sm font-medium text-gray-700 sm:text-base text-left"
+            className=" font-medium text-gray-700 text-left"
           >
             Email <span className="text-red-500">*</span>
           </label>
@@ -87,7 +87,7 @@ const GrievanceForm = () => {
         <div className="gf-field flex flex-col">
           <label
             htmlFor="grievanceType"
-            className="text-sm font-medium text-gray-700 sm:text-base text-left"
+            className=" font-medium text-gray-700 text-left"
           >
             Grievance Type <span className="text-red-500">*</span>
           </label>
@@ -110,7 +110,7 @@ const GrievanceForm = () => {
         <div className="gf-field flex flex-col">
           <label
             htmlFor="description"
-            className="text-sm font-medium text-gray-700 sm:text-base text-left"
+            className=" font-medium text-gray-700 text-left"
           >
             Description <span className="text-red-500">*</span>
           </label>
