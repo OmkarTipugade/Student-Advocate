@@ -14,8 +14,7 @@ const SignUpForm = () => {
       // onSignup({ username, password });
       return;
     }
-    // Proceed with signup logic (e.g., API call)
-    setErrorMessage(""); // Clear error on successful match
+    setErrorMessage("");
     console.log("Sign up successful");
   };
 
@@ -86,7 +85,7 @@ const SignUpForm = () => {
             type="submit"
             className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
           >
-            Sign Up
+            Sign up
           </button>
         </form>
       </div>

@@ -12,12 +12,12 @@ const ContactUs = () => {
       </div>
       <div>
         <p className="my-2 font-bold text-xl">GRIEVANCE BOX</p>
-        <div className="flex flex-row items-center mb-2">
+        <div className="flex flex-row text-xl items-center mb-2">
           <FaSquarePhone className="mr-2" />
           <p>0231 232 0914</p>
         </div>
         <a href="mailto:dype472.ec@unishivaji.ac.in">
-          <div className="flex flex-row items-center mb-2">
+          <div className="flex flex-row text-xl items-center mb-2">
             <MdOutlineEmail className="mr-2" />
             <p>dype472.ec@unishivaji.ac.in</p>
           </div>
@@ -27,12 +27,12 @@ const ContactUs = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="flex flex-row items-center mb-2">
+          <div className="flex flex-row text-xl items-center mb-2">
             <CgWebsite className="mr-2" />
             <p>https://coes.dypgroup.edu.in</p>
           </div>
         </a>
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row text-xl items-center">
           <FaLocationDot className="mr-2" />
           <p>
             R. S. No. 865 A-Ward, Salokhe Nagar, Kolhapur, Maharashtra 416001
