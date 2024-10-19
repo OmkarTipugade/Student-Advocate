@@ -39,7 +39,7 @@ const GrievanceForm = () => {
 
   return (
     <div className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-lg mt-10 sm:max-w-xl md:max-w-2xl">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center sm:text-3xl">
+      <h2 className="text-4xl font-semibold text-gray-800 mb-4 text-center sm:text-4xl">
         Grievance Form
       </h2>
       {submitted && (
