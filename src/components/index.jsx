@@ -1,17 +1,41 @@
 import React from "react";
 import HomeScreen from "./HomeScreen";
-import AboutUs from "./AboutUs";
 import VisionMission from "./VisionMission";
+import AboutUs from "./AboutUs";
 import MeetOurTeam from "./MeetOurTeam";
 import ContactUs from "./ContactUs";
+import LoginForm from "./LoginForm";
+import SignUpForm from "./SignUpForm";
+import GrievanceForm from "./GrievanceForm";
+import Navbar from "./Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 const index = () => {
   return (
     <div>
-      <HomeScreen />
-      <AboutUs />
-      <VisionMission />
-      <MeetOurTeam />
-      <ContactUs />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={
+              <>
+                <HomeScreen />
+                <VisionMission />
+                <AboutUs />
+                <MeetOurTeam />
+                <ContactUs />
+              </>
+            }
+          />
+          <Route exact path="/grievanceform" element={<GrievanceForm />} />
+          <Route exact path="/about" element={<AboutUs />} />
+          <Route exact path="/contact" element={<ContactUs />} />
+          <Route exact path="/signup" element={<SignUpForm />} />
+          <Route exact path="/signin" element={<LoginForm />} />
+        </Routes>
+      </Router>
     </div>
   );
 };

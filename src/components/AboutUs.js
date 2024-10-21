@@ -3,7 +3,7 @@ import group from "../images/group.jpeg";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen p-5 sm:p-10">
+    <div className="flex flex-col justify-center items-center min-h-screen p-5 sm:p-10 mt-10">
       <p className="font-bold text-3xl items-center lg:text-4xl text-center lg:text-left">
         ABOUT US
       </p>

@@ -13,7 +13,7 @@ const TeamMember = (props) => {
       <p class="text-center text-gray-400">{props.role}</p>
       <div class="flex justify-center mt-4 space-x-4 text-xl">
         <a href={props.link} class="text-blue-500">
-          <FaLinkedin/>
+          <FaLinkedin />
         </a>
       </div>
     </div>
